@@ -39,10 +39,12 @@ int main()
 
          both_nums += *last_num;
 
-         auto THENUMBERSJASON = std::stoi(both_nums);
+         auto THENUMBERSJASON = std::stoi(both_nums); //from string to int
 
          sum = sum + THENUMBERSJASON;
       }
+
+      input_file.close();
    }
 
    std::cout << sum << std::endl;
